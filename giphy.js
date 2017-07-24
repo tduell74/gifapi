@@ -51,7 +51,7 @@ $(document).ready(function(){
   	 var hero = $(this).attr("data-value");
   	 console.log(hero);
 
-  	 var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + hero + "&api_key=f4f904d2f7d04da683a89b1ad02966a7&limit=10&rating=pg";
+  	 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + hero + "&api_key=f4f904d2f7d04da683a89b1ad02966a7&limit=10&rating=pg";
      
 
      $.ajax({
